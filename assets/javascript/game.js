@@ -23,17 +23,17 @@ $(document).ready(function() {
 
 	// random variables selected by computer
 	let randNumber; // number to match
-	var crystalNumbers = []; // for array of random crystal values
+	let crystalNumbers = []; // for array of random crystal values
 
-	var c1;
-	var c2;
-	var c3;
-	var c4;
+	let c1;
+	let c2;
+	let c3;
+	let c4;
 
-  var totalScore = 0; // user's score
+  let totalScore = 0; // user's score
 
-	var wins = 0;
-	var losses = 0;
+	let wins = 0;
+	let losses = 0;
 
 	// FUNCTIONS //
 
@@ -46,7 +46,7 @@ $(document).ready(function() {
 
 		console.log("random number: " + randNumber);
 
-	} // END of pickRandomNumber function
+	} 
 
 	// pick random numbers for crystals
 

@@ -64,55 +64,13 @@ p{
     .box5{
     
         background-color:rgb(75, 182, 141);
-        width: 10%;
-        height: 20px;
+        width:200px;
+        height: 100px;
     
     
     }
     
-#button-1{
-    background-attachment: fixed;
-    background-color:rgb(75, 182, 141);
-    width: 5%;
-    height: 10px;
-    float: left;
 
-
-}
-
-#button-2{
-
-    background-color:rgb(75, 182, 141);
-    width: 5px;
-    height: 5px;
-    float: left;
-    object-fit: scale-down;
-
-
-}
-    
-    
-   
-
-#button-3{
-
-    background-color:rgb(75, 182, 141);
-    width: 5px;
-    height: 5px;
-    float: left;
-
-
-}
-
-#button-4{
-
-    background-color:rgb(75, 182, 141);
-    width: 5px;
-    height: 5px;
-    float: left;
-
-
-}
 
     
     
@@ -121,18 +79,68 @@ p{
 .box6{
     background-attachment: fixed;
     background-color: bisque;
-    width: 30%;
+    width: 400px;
     height: 350px
 
 
 }
 .box7{
     background-attachment: fixed;
-    background-color:rgb(75, 182, 141);
-    width: 10%;
+    background-color: white;
+    width: 40px;
     height: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    text-size-adjust: 100%
+}
+
     
     
 
 
+
+#icon1{
+
+    width: 200px;
+    height: 200px;
+    float: right;
+
+
+
+}
+
+#icon2{
+
+    width: 200px;
+    height: 200px;
+    float: right;
+
+
+
+}
+#icon3{
+
+    width: 200px;
+    height: 200px;
+    float: right;
+
+
+
+}
+#icon4{
+
+    width: 200px;
+    height: 200px;
+    float: right;
+
+
+
+}
+#score{
+    float: right;
+}
+#totalNumber{
+    
+    color: red;
 }
